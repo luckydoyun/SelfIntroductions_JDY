@@ -1,0 +1,266 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;500;700&family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,700;0,800;1,600&display=swap');
+
+* {
+    overflow: hidden;
+    color: white;
+    font-family: 'Noto Sans KR', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h3 {
+    text-align: center;
+    font-style: italic;
+    font-weight: bold;
+    margin-top: 50px;
+    font-size: 30px;
+}
+
+#trans_text_balck:hover {
+    color: black;
+    transition: .3s;
+
+}
+
+
+/* nav */
+
+nav {
+    width: 100%;
+    text-align: center;
+    align-items: center;
+    padding-top: 50px;
+    position: fixed;
+}
+
+nav li {
+    display: inline;
+    font-weight: bold;
+    margin: 60px;
+}
+
+nav li a {
+    color: whitesmoke;
+    text-decoration: none;
+    font-size: 20px;
+    font-style: italic;
+    align-items: center;
+}
+
+.nav li a:hover {
+    color: red;
+    transition: .3s;
+}
+
+/* Home */
+
+.one {
+    background-size: cover;
+    text-align: center;
+    padding-top: 80px;
+    padding-bottom: 100px;
+}
+
+.profile {
+    border-radius: 35%;
+    display: inline-block;
+    padding: 0.15rem;
+    margin-top: 90px;
+    border: 1px solid gray;
+    background-color: rgba(255, 255, 255, 0.1);
+    border: 1px solid rgb(255, 255, 255, 0.5);
+}
+
+.profile img {
+    border-radius: 35%;
+}
+
+/* About me */
+
+.aboutme {
+    border-radius: 35%;
+    display: inline-block;
+    padding: 0.15rem;
+    margin-top: 90px;
+    margin-left: 30px;
+    background-color: rgba(212, 202, 228, 0.129);
+    border: 3px solid rgba(94, 68, 68, 0.5);
+}
+
+.aboutme img {
+    border-radius: 35%;
+}
+
+.about_context {
+    float: left;
+    margin-top: 35px;
+    padding-left: 20px;
+}
+
+.about_context_p {
+    font-size: 25px;
+}
+
+/* keyword */
+#keyword_text {
+    font-size: 25px;
+    margin-top: 50px;
+    float: left;
+    overflow: hidden;
+    line-height: 250%;
+}
+
+#keyword_show:hover {
+    color: rgba(7, 1, 1, 0.596);
+    font-style: italic;
+    font-weight: bold;
+    transition: .3s;
+}
+
+#keyword_black:hover {
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    font-size: xx-large;
+    transition-duration: 1.0s;
+}
+
+#keyword_boldwhite:hover {
+    color: #FFFAFA;
+    font-weight: bold;
+    font-size: 40px;
+    transition-duration: 1.0s;
+}
+
+#keyword_dodgerblue:hover {
+    color: #1E90FF;
+    font-weight: bold;
+    font-size: 33px;
+    transition-duration: 1.0s;
+}
+
+#keyword_brown:hover {
+    color: rgba(228, 177, 101, 0.561);
+    font-weight: bold;
+    font-size: 30px;
+    transition-duration: 1.0s;
+}
+
+#keyword_basic:hover {
+    color: #FAFAD2;
+    font-weight: bold;
+    font-size: 28px;
+    transition-duration: 1.0s;
+}
+
+#keyword_iphone:hover {
+    color: rgba(115, 34, 212, 0.749);
+    font-weight: bold;
+    font-size: 40px;
+    transition-duration: 1.0s;
+}
+
+#keyword_continue{
+    color: rgba(255, 0, 0, 0.478);
+    font-weight: bold;
+    font-size: 35px;;
+}
+
+/* plan */
+
+#video_plan{
+    border-radius: 5%;
+    display: inline-block;
+    padding: 0.35rem;
+    margin-top: 30px;
+    border: 1px solid gray;
+    background-color: rgba(255, 255, 255, 0.1);
+    border: 1px solid rgb(255, 255, 255, 0.5);
+    width: 900px;
+    height: 680px;
+}
+
+.plan_context {
+    float: right;
+    margin-top: 35px;
+    padding-left: 30px;
+}
+
+/* Contact */
+
+
+.contact_img_section {
+    /* float: inline-start; */
+    width: 50%;
+    position: static;
+}
+
+.contact_img_section img{
+    width: 100%;
+    height: auto;
+    border-radius: 35%;
+    display: inline-block;
+    padding: 0.15rem;
+    border: 1px solid gray;
+    background-color: rgba(255, 255, 255, 0.1);
+    border: 1px solid rgb(255, 255, 255, 0.5);
+}
+
+.social{
+    width: 10%;
+    margin-left: 10px;
+    position: relative;
+}
+
+.social img{
+    width:100%;
+    height: auto;
+}
+
+/* Scroll down */
+
+.container {
+    width: 100%;
+    height: 100vh;
+    overflow: auto;
+    scroll-behavior: smooth;
+    scroll-snap-type: y mandatory;
+}
+
+.list {
+    margin: auto;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    scroll-snap-align: center;
+}
+
+#home {
+    background-color: #4e5a56;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+#about {
+    background-color: #9d949e;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+#plan {
+    background-color: #a9a9a9f7;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+#contact {
+    background-color: #4e5a56c0;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
